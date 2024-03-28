@@ -19,6 +19,12 @@ docker-compose up -d
 #down Container
 docker-compose down 
 
+#create database odoo 
+master_password : adminroot
+
+#pemasangan addons Accounting 
+ekstrack file zip om_accounting-16xxx isikan masukan ke dalam folder addons
+
 Contributor 
 Mucharom 
 Fullstack Developer 
