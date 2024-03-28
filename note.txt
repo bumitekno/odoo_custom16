@@ -1,0 +1,1 @@
+db  for hostname to connect database from Server
