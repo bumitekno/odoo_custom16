@@ -1,1 +1,24 @@
-db  for hostname to connect database from Server
+#db  for hostname to connect database from Server
+
+#Buat Folder terlebih dahulu pgadmin dan postgresql 
+
+#Permissin folder read 777 
+sudo chmod -R 777 addons
+sudo chmod -R 777 etc
+sudo chmod -R 777 pgadmin
+sudo chmod -R 777 postgresql 
+
+#Container docker ini berlaku untuk odoo 16 or latest 
+
+#build image 
+docker-compose build 
+
+#up Container
+docker-compose up -d 
+
+#down Container
+docker-compose down 
+
+Contributor 
+Mucharom 
+Fullstack Developer 
